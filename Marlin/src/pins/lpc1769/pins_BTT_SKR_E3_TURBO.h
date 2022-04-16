@@ -176,7 +176,8 @@
 #define HEATER_1_PIN                       P2_04  // EXTRUDER 1
 #define HEATER_BED_PIN                     P2_05  // BED
 #define FAN_PIN                            P2_01
-#define FAN1_PIN                           P2_02
+#define FAN1_PIN                           P2_02  // Dead
+#define FAN2_PIN                           P2_04  // Borrowing HE1
 
 #ifndef CONTROLLER_FAN_PIN
   #define CONTROLLER_FAN_PIN            FAN1_PIN
